@@ -295,6 +295,24 @@ $extraPadding: 60px;
   }
 }
 
+@keyframes opacityIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes opacityOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
 .sidebar-menu-wrapper {
   position: fixed;
   top: 0;
